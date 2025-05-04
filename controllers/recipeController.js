@@ -68,7 +68,7 @@ async function deleteRecipe(req, res) {
   try {
     const recipeId = Number(req.params.recipeId);
     const deletedRecipe = await Recipe.findOneAndDelete({recipeId});
-    if(deleteRecipe){
+    if(deletedRecipe){
         res.json({ message: `Recipe Deleted Successfully for given recipeId: ${recipeId}`,deletedRecipe });
     }else{
         res.json({ message: `Recipe not found for given recipeID: ${recipeId}` });
