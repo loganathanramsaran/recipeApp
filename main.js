@@ -1,5 +1,6 @@
 const app = require("./app");
-const PORT = 7500;
+require("dotenv").config()
+const PORT = process.env.PORT || 8000;
 
 //Import dbConnection from config folder
 const mongoConnect = require("./config/mongoConnect");

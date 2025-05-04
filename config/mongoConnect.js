@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 async function mongoConnect() {
     try{
-        await mongoose.connect('mongodb://127.0.0.1:27017/recipeApp');
+        await mongoose.connect(process.env.MONGODB_URL);
         console.log("MongoDB connected Successfully");
     }
     catch(error){
