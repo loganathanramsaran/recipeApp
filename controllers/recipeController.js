@@ -5,6 +5,7 @@ async function createRecipe(req, res) {
   try {
     const recipeData = req.body;
     newRecipe = await Recipe.create(recipeData);
+    res.json({message:"New Recipe Created Successfully", newRecipe})
   } catch (error) {
     res.json({ Error: error.message });
   }
