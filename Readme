@@ -1,0 +1,31 @@
+🍲 Recipe App API
+
+The Recipe App API allows users to create, retrieve, update, and delete recipes. The API provides a set of endpoints to manage recipe data, including the recipe name, description, and category. This app is designed for users who want to browse, share, and edit their favorite recipes.
+
+✅  Features:
+
+1.Create Recipe: Allows users to add new recipes, including title, ingredients, instructions, and category.
+
+2.Get All Recipes: Retrieve a list of all recipes stored in the system.
+
+3.Get Recipe by ID: Fetch the details of a specific recipe by its unique ID.
+
+4.Update Recipe: Modify the title, description, ingredients, and category of a recipe.
+
+5.Delete Recipe: Remove a recipe from the system permanently.
+
+
+⚙️ Tech Stack :
+
+    => Node.js
+
+    => Express.js
+
+    => MongoDB
+
+    => Mongoose
+
+    => Postman (for API testing)
+
+
+To Know more information -> Click On the Following Link -> https://documenter.getpostman.com/view/44466576/2sB2j68VQc
