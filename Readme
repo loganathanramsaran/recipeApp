@@ -4,13 +4,13 @@ The Recipe App API allows users to create, retrieve, update, and delete recipes.
 
 ✅  Features:
 
-1.Create Recipe: Allows users to add new recipes, including title, ingredients, instructions, and category.
+1.Create Recipe: Allows users to add new recipes, including recipeName, Description, and category.
 
 2.Get All Recipes: Retrieve a list of all recipes stored in the system.
 
 3.Get Recipe by ID: Fetch the details of a specific recipe by its unique ID.
 
-4.Update Recipe: Modify the title, description, ingredients, and category of a recipe.
+4.Update Recipe: Modify the recipeName, description, category of a recipe.
 
 5.Delete Recipe: Remove a recipe from the system permanently.
 
