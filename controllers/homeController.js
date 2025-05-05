@@ -1,5 +1,5 @@
 function handleHome (req,res){
-    res.send("Welcome");
+    res.send("Welcome To Our Recipe APPlication")
 }
 
 
