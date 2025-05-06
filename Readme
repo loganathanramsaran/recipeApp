@@ -1,4 +1,5 @@
-🍲 Recipe App API
+#🍲 Recipe App API
+### ✨ A Simple and Clean ⚙️ C-R-U-D 📝 Application
 
 The Recipe App API allows users to create, retrieve, update, and delete recipes. The API provides a set of endpoints to manage recipe data, including the recipe name, description, and category. This app is designed for users who want to browse, share, and edit their favorite recipes.
 
