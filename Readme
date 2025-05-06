@@ -2,6 +2,17 @@
 
 The Recipe App API allows users to create, retrieve, update, and delete recipes. The API provides a set of endpoints to manage recipe data, including the recipe name, description, and category. This app is designed for users who want to browse, share, and edit their favorite recipes.
 
+==> Get All Recipes -> https://recipeapp-9uqi.onrender.com/recipes
+==> Get One Recipe by Id -> https://recipeapp-9uqi.onrender.com/recipes/1 
+
+Recipe Data Structure :
+    {
+      "recipeId": 1,               // Unique identifier for the recipe
+      "recipeName": "name",        // Name of the recipe
+      "category": "category",      // Category (e.g., Dessert, Main Course)
+      "description": "description" // Text description of the recipe
+    }
+
 ✅  Features:
 
 1.Create Recipe: Allows users to add new recipes, including recipeName, Description, and category.
